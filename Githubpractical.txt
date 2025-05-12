@@ -1,0 +1,114 @@
+
+************** STEP 1 *****************************
+
+https://git-scm.com/downloads/win : Download Standalone Installer Git for Windows/x64 Setup.
+
+
+************** STEP 2 *****************************
+
+https://github.com/ Sign Up 
+Login Name : 
+User Name :
+
+Receive Code On Gmail or given Mail ID
+
+A sign in attempt requires further verification because we did not recognize your device. To complete the sign in, enter the verification code on the unrecognized device.
+
+Device: Chrome on Windows
+Verification code: 428471
+
+************** CREATE REPO on GitHub with Readme File *****************************
+
+Devops-git-kiran
+
+
+ ************ RUN Git Command ***** git version || git status || git clone URL || git add . || git commit -m "added RG code" || git push *******************
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git version
+git version 2.49.0.windows.1
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git branch
+* main
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git log
+commit d5ff76ab98d46ba2c9a02b8372cae39417694966 (HEAD -> main, origin/main, origin/HEAD)
+Author: Devops-git-kiran <kiranjadhav13@gmail.com>
+Date:   Mon May 12 23:50:38 2025 +0530
+
+    added RG code
+
+commit c6618de2f68cfc3cd9642f97084c6f6a14a482e5
+Author: kiranjadhav13 <kiranjadhav13@gmail.com>
+Date:   Mon May 12 23:28:18 2025 +0530
+
+    Initial commit
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub> git clone https://github.com/kiranjadhav13/Devops-git-kiran.git
+Cloning into 'Devops-git-kiran'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub> git add
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> ls
+
+
+    Directory: C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12-05-2025     23:40             18 README.md
+-a----        12-05-2025     23:39            232 Resourcegroup.tf
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git add 
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git add .
+
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git commit -m "added RG code"
+Author identity unknown
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'admin@DESKTOP-ORQ2E0S.(none)')
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git config --global user.email kiranjadhav13@gmail.com
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git config --global user.name Devops-git-kiran
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git commit -m "added RG code"
+[main d5ff76a] added RG code
+ 1 file changed, 13 insertions(+)
+ create mode 100644 Resourcegroup.tf
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 443 bytes | 443.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kiranjadhav13/Devops-git-kiran.git
+   c6618de..d5ff76a  main -> main
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> 
