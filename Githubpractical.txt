@@ -112,3 +112,134 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/kiranjadhav13/Devops-git-kiran.git
    c6618de..d5ff76a  main -> main
 PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> 
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git commit -m "Added new VNet module for production"
+On branch add-vnet-module
+nothing to commit, working tree clean
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> ls
+
+
+    Directory: C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran
+
+
+Mode                 LastWriteTime         Length Name
+-a----        12-05-2025     23:40             18 README.md
+-a----        12-05-2025     23:39            232 Resourcegroup.tf
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> cd .
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> cd ..
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub> ls
+
+
+    Directory: C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        12-05-2025     23:47                Devops-git-kiran
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub> ls
+
+
+    Directory: C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub
+
+
+----                 -------------         ------ ----
+d-----        12-05-2025     23:47                Devops-git-kiran
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub> cd .\Devops-git-kiran\
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> ls
+
+
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12-05-2025     23:40             18 README.md
+-a----        12-05-2025     23:39            232 Resourcegroup.tf
+
+
+fatal: The current branch add-vnet-module has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin add-vnet-module
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git push
+fatal: The current branch add-vnet-module has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin add-vnet-module
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> ls
+
+
+    Directory: C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12-05-2025     23:54          45084 Authorize after git push.JPG
+-a----        13-05-2025     00:01          48718 File Open in Git.JPG
+-a----        13-05-2025     00:00          35821 Githubloginsuccess.JPG
+-a----        13-05-2025     00:26           4210 Githubpractical.txt
+-a----        12-05-2025     23:40             18 README.md
+-a----        12-05-2025     23:39            232 Resourcegroup.tf
+
+
+fatal: The current branch add-vnet-module has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin add-vnet-module
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git push --set-upstream origin add-vnet-module
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'add-vnet-module' on GitHub by visiting:
+remote:      https://github.com/kiranjadhav13/Devops-git-kiran/pull/new/add-vnet-module
+remote:
+To https://github.com/kiranjadhav13/Devops-git-kiran.git
+ * [new branch]      add-vnet-module -> add-vnet-module
+
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12-05-2025     23:54          62513 After git push.JPG
+-a----        12-05-2025     23:54          45084 Authorize after git push.JPG
+-a----        13-05-2025     00:01          48718 File Open in Git.JPG
+-a----        13-05-2025     00:26           4210 Githubpractical.txt
+-a----        12-05-2025     23:40             18 README.md
+-a----        12-05-2025     23:39            232 Resourcegroup.tf
+
+
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran>
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git push
+Everything up-to-date
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git add .
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git commit -m "GitHub Practical File"
+[add-vnet-module 9d2da78] GitHub Practical File
+ 5 files changed, 114 insertions(+)
+ create mode 100644 After git push.JPG
+ create mode 100644 Authorize after git push.JPG
+ create mode 100644 File Open in Git.JPG
+ create mode 100644 Githubloginsuccess.JPG
+ create mode 100644 Githubpractical.txt
+PS C:\Kiran Jadhav\DevOps Insider\GitHubs\TerraGitHub\Devops-git-kiran> git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 119.40 KiB | 9.18 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kiranjadhav13/Devops-git-kiran.git
+   d5ff76a..9d2da78  add-vnet-module -> add-vnet-module
